@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario|LKHS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="box">
+        <form>
+            <fieldset>
+                <legend>Formulario do cliente</legend>
+                <div class="inputBox">
+                    <input type="text" name="Nome" id="Nome" class="inputUser" required>
+                    <label for="Nome" class="LabelInput">Nome completo</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="LabelInput">Email</label>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                    <label for="senha" class="LabelInput">Senha</label>
+                </div>
+                <div class="inputBox">
+                    <input type="tel" name="Telefone" id="Telefone" class="inputUser" required>
+                    <label for="Telefone" class="LabelInput">Telefone</label>
+                </div>
+                <div class="inputBox">
+                    <label for="Data_nascimento"><b>Data de nascimento:</b></label>
+                    <input type="date" name="Data_nascimento" id="Data_nascimento" class="inputUser" required>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="LabelInput">Cidade</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="LabelInput">Estado</label>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="Endereço" id="Endereço" class="inputUser" required>
+                    <label for="Endereço" class="LabelInput">Endereço</label>
+                </div>
+                <input type="submit" name="submit" id="submit">          
+                <p><a href="Tela_login.html">Já tenho cadastro</a></p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+<script src="script_cadastro.js"></script>
+</html>

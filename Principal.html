@@ -1,0 +1,137 @@
+<html lang="pt-br"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CodeTech | Portfólio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/aos.css">
+    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse align-items">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">CodeTech | Web Services</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li id="logout"><a href="Tela_login.html">Sair</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h1>Bem-vindo à CodeTech!</h1>
+            <p>Agilidade Web em suas mãos.</p>
+            <a href="#about" class="btn btn-primary btn-lg">Saiba mais</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Startups de Nossos Clientes</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+            </ol>
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+                <div class="item next left">
+                    <img src="assets/img/project-1.jpg" alt="Imagem 1">
+                </div>
+
+                <div class="item">
+                    <img src="assets/img/project-2.png" alt="Imagem 2">
+                </div>
+
+                <div class="item active left">
+                    <img src="assets/img/project-3.png" alt="Imagem 3">
+                </div>
+            </div>
+
+            <!-- Controles -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <!-- Content -->
+        <div class="container-fluid bg-grey">
+            <div class="row">
+                <div id="about" class="col-sm-4">
+                    <h2>Sobre nós</h2>
+                    <p>Somos Desenvolvedores Front-end. Podemos fornecer códigos limpos e imagens de designers perfeitos.
+                        Também podemos criar websites mais interativos com animação web.
+                        E podemos tornar o site responsivo, para que seja acessível a todos os usuários, independentemente de seu aparelho ou dispositivo.</p>
+                </div>
+
+                <div class="col-sm-4">
+                    <h2>Contato</h2>
+                    <p>Para saber mais de como podemos te ajudar a no seu incível projeto com qualidade e total confiança, entre em contato conosco abaixo. <br>Será um prazer trabalhar com você!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- CONTACT -->
+        <section id="contact" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row justify-content-center align-items-center text-center">
+                <div class="col-lg-8 pb-4">
+                    <h6 class="text-brand">CONTATOS</h6>
+                    <h1>Interessado em trabalharmos juntos? Vamos conversar</h1>
+                </div>
+
+                <div class="col-lg-10">
+                    <form action="#" class="row g-lg-3 gy-3" method="post">
+                    <input type="hidden" name="form-name" value="form 1">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group col-12">
+                        <input type="text" class="form-control" placeholder="Enter subject">
+                    </div>
+                    <div class="form-group col-12">
+                        <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="form-group col-12 d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Contate-me</button>
+                    </div>
+                    </form>
+                </div>
+                </div>
+
+            </div>
+        </section>
+    <!-- //CONTACT -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-fluid text-center">
+            <p>© 2023 CodeTech. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script_principal.js"></script>
+
+</body></html>
