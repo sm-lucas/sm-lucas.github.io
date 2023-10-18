@@ -1,4 +1,4 @@
-# sm-lucas.github.io
+# Code tech
 
 Neste site oferecemos serviços de Front-end! Aqui você encontrará informações sobre os serviços que oferecemos e como entrar em contato conosco para discutir suas necessidades de desenvolvimento web.
 
